@@ -1,5 +1,5 @@
 from django.shortcuts import redirect, render
-from accounts.utils import detectUser, send_verification_email
+from .utils import detectUser, send_verification_email
 
 from vendor.forms import VendorForm
 from vendor.models import Vendor
